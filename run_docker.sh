@@ -4,6 +4,7 @@
 
 # Step 1:
 docker build --tag=udacitymicroservice .
+docker tag udacitymicroservice melnaquib/udacitymicroservice:latest
 
 # Step 2: 
 docker image ls
