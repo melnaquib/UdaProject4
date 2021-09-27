@@ -7,7 +7,7 @@ dockerpath=udacitymicroservice
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login --username melnaquib
-docker tag udacitymicroservice amsalama/udacitymicroservice:latest
+docker tag udacitymicroservice melnaquib/udacitymicroservice:latest
 
 # Step 3:
 docker push melnaquib/udacitymicroservice:latest
